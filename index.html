@@ -22,7 +22,7 @@
             <form id="expForm">
                 <div class="formLine left">
                     <span for="type">Type:</span>
-                    <select id="type">
+                    <select id="type" required>
                         <option value="chooseOne">Choose One...</option>
                         <option value="card">Card</option>
                         <option value="cash">Cash</option>
@@ -32,15 +32,15 @@
                 </div>
                 <div class="formLine right">
                     <span for="name">Name:</span>
-                    <input type="text" id="name">
+                    <input type="text" id="name" required>
                 </div>
                 <div class="formLine left">
                     <span for="date">Date:</span>
-                    <input type="date" id="date">
+                    <input type="date" id="date" required>
                 </div>
                 <div class="formLine right">
                     <span for="amount">Amount:</span>
-                    <input type="text" id="amount">
+                    <input type="text" id="amount" required>
                 </div>
                 <button type="submit" class="buttonSave">Add a new expense</button>
             </form>
